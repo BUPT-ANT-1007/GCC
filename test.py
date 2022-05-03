@@ -49,7 +49,6 @@ model = torch.load('./modelSave/9/LFAS-GLL-town.pt', map_location='cuda:5')
 model.eval()
 re_Y = np.zeros((in_feat, in_feat_1))
 
-# prediction = model(g1, g2, Y.to(device))
 prediction = model(g2, Y.to(device))
 re_Y = prediction.cpu().detach().numpy()
 
