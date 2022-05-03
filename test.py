@@ -28,11 +28,10 @@ logger.info('Program start...LFAS...')
 import sys
 # dsModel = sys.argv[0]
 dsName = sys.argv[1]
-# QP = sys.argv[2]
 
-# Y = np.load('./testData/hevc/hci/S_test_'+ dsName +'_QP'+str(QP)+'.npy')
+
+
 # Y = np.load('./testData/test/five/S_test_'+ dsName +'.npy')
-# Y = np.load('./testData/hevc/differentS/key/S_test_bikes_arstar_QP'+str(QP)+'.npy')
 Y = np.load('./testData/test/9/S_test_'+dsName+'.npy')
 
 label = np.load('./testData/test/9/S_label_'+dsName+'.npy')
