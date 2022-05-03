@@ -1,0 +1,5 @@
+dgl==0.4.1
+dgl-cu102==0.7.1
+numpy==1.19.4
+opencv-python==4.5.1.48
+torch==1.5.0
