@@ -8,4 +8,5 @@ Code for the paper "Geometry-guided Compact Compression for Light Field Image us
 'model.py' is the concrete structure of the network.
 ## util
 'util.py' contains a preprocessor function for the light field data set, graph modeling function, performance evaluation function.
-
+## PS
+Please change the file path of the dataset in code.
