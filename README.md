@@ -1,2 +1,2 @@
 # GCC
-Geometry-guided Compact Compression for Light Field Image using Graph Convolutional Networks
+Part of source code for the paper "Geometry-guided Compact Compression for Light Field Image using Graph Convolutional Networks"
