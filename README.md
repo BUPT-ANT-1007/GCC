@@ -10,4 +10,9 @@ Code for the paper "Geometry-guided Compact Compression for Light Field Image us
 'util.py' contains a preprocessor function for the light field data set, graph modeling function, performance evaluation function.
 ## PS
 This section of code was tested on ubuntu20.04 and RTX 2080 ti.
+
+The HEVC compressed version is HM-16.20.
+
+Select the DGL version corresponding to cuda.
+
 Please change the file path of the dataset in code.
